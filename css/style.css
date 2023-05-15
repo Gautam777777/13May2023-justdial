@@ -9,6 +9,20 @@ header{
     height: 80px;
     margin: auto;
 }
+ul > li a:hover{
+    background-color: #e8e8e8;
+    border-radius: 4px;
+}
+.g_submenu{
+    width: 110px;
+    min-height: 100px;
+    position: relative;
+    display: none;
+    border-radius: 3px;
+}
+.g_menu > li:hover ul{
+    display: block;
+}
 main{
     height: 5000px;
     background-color: red;
